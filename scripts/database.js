@@ -33,4 +33,4 @@ const database = {
     { id: 2, size: "Ice Breath" },
     { id: 3, size: "Fire Breath" }
   ]
-};
+}
