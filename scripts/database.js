@@ -42,3 +42,19 @@ const getLegs = () => {
 const getPowers = () => {
   return database.powers.map(power => ({...power}))
 }
+
+const getHeads = () => {
+  return database.heads.map(head =>({...head}))
+}
+
+const getTorsos = () => {
+  return database.torsos.map(torso =>({...torso}))
+}
+
+const getTails = () => {
+  return database.tails.map(tail =>({...tail}))
+}
+
+const getThumbs = () => {
+  return database.thumbs.map(thumb =>({...thumb}))
+}

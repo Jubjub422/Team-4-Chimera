@@ -5,7 +5,7 @@ const powers = getPowers()
 export const Powers = () => {
     let html = '<select id="powers"><option value="0">Select power...</option>'
 
-    const listItemsArray = legs.map(power => {
+    const listItemsArray = powers.map(power => {
         return `<option id="${power.id}"value="${power.id}">${power.name}</option>`
     })
 
