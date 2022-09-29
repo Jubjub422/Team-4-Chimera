@@ -34,3 +34,11 @@ const database = {
     { id: 3, size: "Fire Breath" }
   ]
 };
+
+const getLegs = () => {
+  return database.legs.map(legs =>({...legs}))
+}
+
+const getPowers = () => {
+  return database.powers.map(power => ({...power}))
+}
