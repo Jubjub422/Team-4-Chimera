@@ -22,7 +22,7 @@ const database = {
     { id: 3, name: "Lion", price: 0.94, isVenomous: false },
     { id: 4, name: "Lemur", price: 0.61, isVenomous: false }
   ],
-  arms: [
+  thumbs: [
     { id: 1, name: "Scorpion", price: 0.05, hasFingers: false },
     { id: 2, name: "Gorilla", price: 0.07, hasFingers: true },
     { id: 3, name: "Sloth", price: 0.03, hasFingers: true },
@@ -33,4 +33,31 @@ const database = {
     { id: 2, size: "Ice Breath" },
     { id: 3, size: "Fire Breath" }
   ]
+}
+
+
+
+
+export const getHeads = () => {
+  database.heads.map(head => ({...head}))
+}
+
+export const getTorsos = () => {
+  database.torsos.map(torso => ({...torso}))
+}
+
+export const getLegs = () => {
+  database.legs.map(leg => ({...leg}))
+}
+
+export const getTails = () => {
+  database.tails.map(tail => ({...tail}))
+}
+
+export const getThumbs = () => {
+  database.thumbs.map(thumb => ({...thumb}))
+}
+
+export const getPowers = () => {
+  database.powers.map(power => ({...power}))
 }
