@@ -22,7 +22,7 @@ const database = {
     { id: 3, name: "Lion", price: 0.94, isVenomous: false },
     { id: 4, name: "Lemur", price: 0.61, isVenomous: false }
   ],
-  arms: [
+  thumbs: [
     { id: 1, name: "Scorpion", price: 0.05, hasFingers: false },
     { id: 2, name: "Gorilla", price: 0.07, hasFingers: true },
     { id: 3, name: "Sloth", price: 0.03, hasFingers: true },
