@@ -9,7 +9,7 @@ const tails = getTails()
 export const htmlTails = () => {
     return `<h2>Tails</h2>
         <select id="tails">
-            <option value="0">Chose Tail Option</option>
+            <option value="0">Choose Tail Option</option>
             ${
                 tails.map(
                     (tail) => {
