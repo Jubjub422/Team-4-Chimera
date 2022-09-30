@@ -38,26 +38,26 @@ const database = {
 
 
 
-export const getHeads = () => {
-  database.heads.map(head => ({...head}))
+const getLegs = () => {
+  return database.legs.map(legs =>({...legs}))
 }
 
-export const getTorsos = () => {
-  database.torsos.map(torso => ({...torso}))
+const getPowers = () => {
+  return database.powers.map(power => ({...power}))
 }
 
-export const getLegs = () => {
-  database.legs.map(leg => ({...leg}))
+const getHeads = () => {
+  return database.heads.map(head =>({...head}))
 }
 
-export const getTails = () => {
-  database.tails.map(tail => ({...tail}))
+const getTorsos = () => {
+  return database.torsos.map(torso =>({...torso}))
 }
 
-export const getThumbs = () => {
-  database.thumbs.map(thumb => ({...thumb}))
+const getTails = () => {
+  return database.tails.map(tail =>({...tail}))
 }
 
-export const getPowers = () => {
-  database.powers.map(power => ({...power}))
+const getThumbs = () => {
+  return database.thumbs.map(thumb =>({...thumb}))
 }
