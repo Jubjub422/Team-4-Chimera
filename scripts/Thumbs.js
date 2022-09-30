@@ -11,7 +11,7 @@ export const htmlThumbs = () => {
         <select id="thumbs">
             <option value="0">Select Thumbs</option>
             ${
-                thunmbs.map(
+                thumbs.map(
                     (thumb) => {
                         return `<option value="${thumb.id}">${thumb.name}</option>`
                     }
