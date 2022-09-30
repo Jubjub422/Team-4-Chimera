@@ -38,7 +38,7 @@ const database = {
 
 
 
-const getLegs = () => {
+ const getLegs = () => {
   return database.legs.map(legs =>({...legs}))
 }
 

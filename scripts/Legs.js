@@ -1,4 +1,4 @@
-import { database } from "./database.js"
+import { getLegs } from "./database.js"
 
 const legs = getLegs() 
 
